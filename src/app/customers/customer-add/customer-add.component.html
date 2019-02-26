@@ -1,7 +1,6 @@
 <h3>Add Customer</h3>
 
-<form class="form-inline mb-4">
-  <!-- <form [formGroup]="customerForm" (submit)="createCustomer()" class="form-inline mb-4"> -->
+<form [formGroup]="customerForm" (submit)="createCustomer()" class="form-inline mb-4"> 
     <label class="sr-only" for="Name">Name</label>
     <div class="input-group mb-2 mr-sm-2">
       <input type="text" class="form-control" formControlName="name" placeholder="name">

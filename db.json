@@ -1,19 +1,18 @@
 {
-    "customers" : [
-        {
-            "name" : "Ankit dubey",
-            "phone": "8767465665",
-            "address": "noida, Uttar pradesh",
-            "membership": "Platinum",
-            "id": 1
-        },
-        {
-            "name" : "Ajit kumar",
-            "phone": "8767465666",
-            "address": "Delhi, New Delhi",
-            "membership": "Gold",
-            "id": 2
-        }
-
-    ]
+  "customers": [
+    {
+      "name": "Ankit dubey",
+      "phone": "8767465665",
+      "address": "noida, Uttar pradesh",
+      "membership": "Platinum",
+      "id": 1
+    },
+    {
+      "name": "Ajit kumar",
+      "phone": "8767465666",
+      "address": "Delhi, New Delhi",
+      "membership": "Gold",
+      "id": 2
+    }
+  ]
 }
