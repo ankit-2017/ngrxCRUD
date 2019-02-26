@@ -15,7 +15,7 @@ export class LoadCustomers implements Action {
 export class LoadCustomersSuccess implements Action {
     readonly type = CustomerActionTypes.LOAD_CUSTOMER_SUCCESS;
 
-    constructor(public payload: {customers: Customer[]}){}
+    constructor(public payload: Customer[]) {}
 }
 
 export class LoadCustomersFail implements Action {
